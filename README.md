@@ -14,7 +14,7 @@ pip3 install -r requirements.txt
 Now, to protect the bot token, save your telegram token in a `.env` file, by running:
 
 ```shell
-echo "export SECRET_KEY=YOUR_TELEGRAM_TOKEN" >> .env
+echo "SECRET_KEY=YOUR_TELEGRAM_TOKEN" >> .env
 ```
 Then you can run the bot with:
 
